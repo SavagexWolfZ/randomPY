@@ -10,7 +10,3 @@ while True:
   print(n)
   n = n + 1
   sleep(1)
-  
-
-*This counts 1 time every second.
-*Change sleep(1) to change the speed
