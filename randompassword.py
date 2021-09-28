@@ -15,6 +15,10 @@ password4 = ''.join(choice(all) for i in range(10))
 password5 = ''.join(choice(all) for i in range(20))
 password6 = ''.join(choice(all) for i in range(30))
 
+password100 = ''.join(choice(all) for i in range(100))
+password200 = ''.join(choice(all) for i in range(100))
+password300 = ''.join(choice(all) for i in range(100))
+
 print('HERE ARE 3 DIFFERENT PASSWORDS')
 
 print(password)
@@ -26,3 +30,9 @@ print('HERE ARE SOME LONGER PASSWORDS')
 print(password4)
 print(password5)
 print(password6)
+
+print('HERE ARE SOME 100 DIGIT PASSWORDS')
+
+print(password100)
+print(password200)
+print(password300)
