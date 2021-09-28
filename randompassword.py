@@ -1,9 +1,9 @@
 digits = '0123456789'
 characters = 'abcdefghijklmnopqrstuvwxyz'
 up = characters.upper()
-special = '-_!?&$%'
+specialCharacters = '-_!?&$%'
 
-all = digits+special+characters+up
+all = digits+specialCharacters+characters+up
 
 from random import choice
 
@@ -11,7 +11,7 @@ password = ''.join(choice(all) for i in range(8))
 password2 = ''.join(choice(all) for i in range(8))
 password3 = ''.join(choice(all) for i in range(8))
 
-password4 = ''.join(choice(all) for i in range(10))
+password4 = ''.join(choice(all) for i in range(15))
 password5 = ''.join(choice(all) for i in range(20))
 password6 = ''.join(choice(all) for i in range(30))
 
