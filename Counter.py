@@ -12,5 +12,5 @@ while True:
   sleep(1)
   
 
-//This counts 1 time every second.
-//Change sleep(1) to change the speed
+*This counts 1 time every second.
+*Change sleep(1) to change the speed
