@@ -1,8 +1,8 @@
 from turtle import *
 
 speed(100)
-color('red')
-bgcolor('green')
+color('YOUR-COLOR')
+bgcolor('YOUR-COLOR')
 
 b = 200
 
