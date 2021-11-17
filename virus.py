@@ -1,13 +1,13 @@
 from turtle import *
 
-speed(100)
+speed(10)
 color('YOUR-COLOR')
 bgcolor('YOUR-COLOR')
 
-b = 200
+Z = 200
 
-while b > 0:
-  left(b)
-  forward(b * 3)
-  b = b - 1
+while Z > 0:
+  left(Z)
+  forward(Z * 3)
+  Z = Z - 1
   
