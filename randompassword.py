@@ -1,11 +1,11 @@
 from random import choice
 
-digits = '0123456789'
-characters = 'abcdefghijklmnopqrstuvwxyz'
-up = characters.upper()
-specialCharacters = '-_!?&$%'
+D = '0123456789'
+C = 'abcdefghijklmnopqrstuvwxyz'
+U = characters.upper()
+SC = '-_!?&$%'
 
-everything = digits+specialCharacters+characters+up
+everything = D+SC+C+U
 
 password = ''.join(choice(everything) for i in range(8))
 password2 = ''.join(choice(everything) for i in range(8))
