@@ -2,7 +2,7 @@ from random import choice
 
 D = '0123456789'
 C = 'abcdefghijklmnopqrstuvwxyz'
-U = characters.upper()
+U = C.upper()
 SC = '-_!?&$%'
 
 everything = D+SC+C+U
